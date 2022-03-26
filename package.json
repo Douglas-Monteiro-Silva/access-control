@@ -1,0 +1,26 @@
+{
+  "name": "access-control",
+  "version": "1.0.0",
+  "description": "The goal of this project is to provide a **access control system**.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Douglas-Monteiro-Silva/access-control.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Douglas-Monteiro-Silva/access-control/issues"
+  },
+  "homepage": "https://github.com/Douglas-Monteiro-Silva/access-control#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  }
+}
