@@ -8,14 +8,14 @@ require('dotenv').config();
 
 var db = mysql.createConnection({
     host     : process.env.HOST,
-    user     : process.env.USER,
+    user     : process.env.USERDB,
     password : process.env.PASSWORD,
     database : process.env.DATABASE
 });
 
 app.use(bodyParser.json());
-app.use(express.static("./views"));
 app.use(express.static("./"));
+app.use(express.static("./views"));
 
 router.post('/get_doc_msgs', (req, res)=>{
 var d_msg = "SELECT * FROM teste";
