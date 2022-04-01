@@ -8,9 +8,3 @@ The application should have a place where can be possible monitoring the log acc
 
 Because the inital goal, where the log acess will not be taken by external devices, they will need be registered manually in a proper form.
 
-**Project status**
-| Item  | Status |
-| --------- | --- |
-| Design    | :x: |
-| Front-end | :x: |
-| Back-end  | :x: |
